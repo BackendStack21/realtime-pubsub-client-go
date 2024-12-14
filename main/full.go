@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/backendstack21/realtime-pubsub-client-go"
-	"github.com/sirupsen/logrus"
 	"os"
 	"time"
+
+	realtime_pubsub "github.com/backendstack21/realtime-pubsub-client-go"
+	"github.com/sirupsen/logrus"
 
 	"github.com/joho/godotenv"
 )

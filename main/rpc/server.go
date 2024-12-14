@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/backendstack21/realtime-pubsub-client-go"
-	"github.com/joho/godotenv"
-	"github.com/sirupsen/logrus"
 	"os"
 	"time"
+
+	realtime_pubsub "github.com/backendstack21/realtime-pubsub-client-go"
+	"github.com/joho/godotenv"
+	"github.com/sirupsen/logrus"
 )
 
 func main() {
