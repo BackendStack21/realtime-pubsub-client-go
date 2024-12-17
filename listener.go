@@ -17,7 +17,7 @@ func (m IncomingMessage) Topic() string {
 
 // Data receiver function that extracts the "data" from IncomingMessage.
 func (m IncomingMessage) Data() interface{} {
-	data, _ := m["data"]
+	data := m["data"]
 	return data
 }
 
@@ -48,7 +48,7 @@ func (m ResponseMessage) Id() string {
 
 // Data receiver function that extracts the "data" from ResponseMessage.
 func (m ResponseMessage) Data() interface{} {
-	data, _ := m["data"]
+	data := m["data"]
 	return data
 }
 
